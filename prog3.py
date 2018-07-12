@@ -1,6 +1,6 @@
 alp = raw_input()
 vowels = ['a','e','i','o','u']
-if len(alp)>1:
+if len(alp)>1 or not alp.isalnum():
     print ('invalid')
 else:
     alp.lower()
@@ -8,6 +8,7 @@ else:
         print ('Vowel')
     else:
         print ('Consonant')
+
 
 
 
